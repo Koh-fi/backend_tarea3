@@ -1,0 +1,281 @@
+:root{
+    --bs-primary: #cc0000;
+}
+
+body {
+  background-color: #141415;
+  color: #e0e0e0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bg-dark {
+	background-color: rgba(0,0,0,0.55);
+	
+}
+
+.logo {
+    width: 50px;
+}
+
+.logo-sm {
+    width: 150px;
+    margin-right: 10px;
+}
+
+.space {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.space-top {
+    padding-top: 50px;
+}
+
+.space-bottom {
+    padding-bottom: 50px;
+}
+
+.navbar {
+  padding: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #030303 !important;
+}
+
+.nav-pills {
+    --bs-nav-pills-link-active-bg:#cc0000;
+}
+
+
+.nav-link {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+hr {
+    margin-top: 45px;
+    color: rgba(240, 248, 255, 0.485);
+    border-width: 3px;
+    border-radius: 5px;
+    margin-bottom: 45px;
+}
+
+.hr-sm {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.carousel-caption {
+    position: absolute;
+    left: 5%;
+    text-align: left;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.1) 5%, rgba(0,0,0,0.5)); 
+    padding: 20px;
+    border-radius: 10px;
+    max-width:500px; 
+}
+
+.carousel-caption h5,
+.carousel-caption p {
+    color: white; 
+}
+
+.carousel-item {
+    height: 80vh; /* Puedes ajustar este nÃºmero: 80vh = 80% de la altura de la ventana */
+    min-height: 400px; /* Para pantallas pequeÃ±as */
+    position: relative;
+}
+
+.carousel-item img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.carousel-caption {
+    z-index: 2;
+}
+
+.seccion-imagen {
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-about {
+  background-color: #2a2a2a;
+}
+
+.card {
+    --bs-card-bg: rgba(0, 0, 0, 0.55);
+    color: aliceblue;
+}
+
+.project-card {
+	background-color: rgba(0, 0, 0, 0.55);
+	border-radius: 15px;
+	padding: 25px;
+	max-height: 500px;
+}
+
+.section_1 {
+    padding: 15px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-image: url("../img/bg/red-mountains.jpg");
+		background-clip: padding-box;
+    background-size: 2000px;
+		background-position: 0px -230px;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+    align-content: center;
+    min-height: 650px;
+}
+
+.section_1 .row {
+	text-align: justify;
+  padding-left: 1vw;
+  padding-right: 3vw;
+}
+
+.section_2 {
+    padding: 15px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-image: url("../img/bg/lake-sunset.jpg");
+		background-clip: padding-box;
+    background-size: cover;
+		background-position: 0px -230px;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+    align-content: center;
+}
+
+.section_2 .row {
+	text-align: justify;
+  padding-left: 1vw;
+  padding-right: 3vw;
+}
+
+.posts-img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: center;
+}
+
+.posts-sidebar {
+	background-color: rgba(0, 0, 0, 0.55);
+	padding: 25px;
+	border-radius: 5px;
+	height: fit-content;
+}
+
+.article-img {
+  display: block;
+  max-width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 10px;
+  margin: 0 auto;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+.article-container {
+	background-color: rgba(0, 0, 0, 0.65);
+	padding: 25px;
+	padding-right: 55px;
+	padding-left: 55px;
+	border-radius: 15px;
+	text-align: justify;
+}
+
+
+.post-tags {
+	margin-top: 5px;
+}
+
+.tag-projects { 
+	background-color: #9b59b6; 
+	color: white; 
+}
+.tag-language { 
+	background-color: indianred; 
+	color: white; 
+}
+.tag-multimedia { 
+	background-color: #e67e22; 
+	color: white; 
+}
+.tag-games { 
+	background-color: royalblue; 
+	--bs-badge-color: white; 
+}
+
+.text-muted{
+	color: #cccccc !important;
+}
+
+.seccion-proyectos {
+	background-clip: padding-box;
+  background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+.list-group-item {
+	--bs-list-group-bg: rgba(0, 0, 0, 0.0);
+}
+
+.btn-primary {
+  --bs-btn-bg: #7e3cd5;
+  --bs-btn-border-color: #7e3cd5;
+  --bs-btn-hover-bg: #ba8ef4;
+  --bs-btn-hover-border-color: #ba8ef4;
+}
+
+.list-group-item[data-bs-toggle="collapse"] {
+      cursor: pointer;
+    }
+
+.btn-big {
+  font-size: xx-large;
+  --bs-btn-padding-x: 35px;
+  --bs-btn-padding-y: 35px;
+}
+
+footer {
+  background-color: #000;
+}
+
+#alertPlaceholder {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1050;
+  max-width: 50%;
+}
+
+.icn-menu {
+  padding: 5px;
+  color: rgb(190, 190, 190);
+}
+
+.icn-dropdown {
+  padding-left: 10px;
+  padding-right: 10px; 
+  margin-left: 10px;
+  color: #888;
+}
+
+.icn-alert {
+  padding-right: 10px;
+}

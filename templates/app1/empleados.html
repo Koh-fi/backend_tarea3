@@ -1,0 +1,30 @@
+{% extends "../base.html" %}
+
+{% block title %} Listado de Empleados | Tarea {% endblock title %}
+{% block section_1 %}
+  <h1>LISTADO DE EMPLEADOS</h1>
+
+  {%if empleados%}
+
+  <table class="table table-dark table-hover table-bordered">
+    <thead>
+      <th>ID</th>
+      <th>Nombre</th>
+      <th>Email</th>
+      <th>Fono</th>
+    </thead>
+    <tbody class="table-group-divider">
+      {% for emp in empleados %}
+      <tr>
+        <td scope="row">{{ emp.id }}</td>
+        <td>{{ emp.nombre }}</td>
+        <td>{{ emp.email }}</td>
+        <td>{{ emp.fono }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+  {% else %}
+    <div class="alert alert-danger">ERROR: No se encontró empleados.</div>
+  {% endif %}
+{% endblock section_1 %}
